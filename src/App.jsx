@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
 import About from './components/About'
-import Experience from './components/Experience'
-import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Experience from './components/Experience'
 import Navigation from './components/Navigation'
 import './App.css'
 
@@ -12,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'experience', 'skills', 'projects']
+      const sections = ['hero', 'about', 'projects', 'experience']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -36,9 +35,8 @@ function App() {
       <Navigation activeSection={activeSection} />
       <Hero />
       <About />
-      <Experience />
-      <Skills />
       <Projects />
+      <Experience />
     </div>
   )
 }

@@ -16,9 +16,8 @@ const Navigation = ({ activeSection }) => {
   const navItems = [
     { id: 'hero', label: 'Home' },
     { id: 'about', label: 'About' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
+    { id: 'experience', label: 'Experience' },
   ]
 
   const scrollToSection = (sectionId) => {
