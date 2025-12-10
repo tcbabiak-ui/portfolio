@@ -23,7 +23,7 @@ const Hero = () => {
             into scalable technical solutions and driving measurable outcomes.
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn btn-primary">
+            <a href="mailto:tcbabiak@gmail.com" className="btn btn-primary">
               Get In Touch
             </a>
             <a href="#experience" className="btn btn-secondary">

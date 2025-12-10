@@ -42,16 +42,16 @@ const Contact = () => {
             <a href="mailto:tcbabiak@gmail.com">Send Email</a>
           </div>
           <div className="info-card">
-            <div className="info-icon">📍</div>
-            <h3>Location</h3>
-            <p>Vallejo, CA</p>
-            <span style={{color: 'var(--text-secondary)'}}>Available for remote work</span>
+            <div className="info-icon">💼</div>
+            <h3>LinkedIn</h3>
+            <p>Connect with me</p>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">View Profile</a>
           </div>
           <div className="info-card">
-            <div className="info-icon">📱</div>
-            <h3>Phone</h3>
-            <p>Available for calls</p>
-            <a href="tel:+12134072117">(213) 407-2117</a>
+            <div className="info-icon">🌐</div>
+            <h3>Availability</h3>
+            <p>Open to opportunities</p>
+            <span style={{color: 'var(--text-secondary)'}}>Remote work available</span>
           </div>
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>

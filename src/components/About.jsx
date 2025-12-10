@@ -25,28 +25,50 @@ const About = () => {
           </div>
           <div className="about-highlights">
             <div className="highlight-item">
-              <div className="highlight-icon">🎯</div>
+              <div className="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="6"></circle>
+                  <circle cx="12" cy="12" r="2"></circle>
+                </svg>
+              </div>
               <div className="highlight-content">
                 <h3>Strategic Alignment</h3>
                 <p>Aligning AI-driven and cloud solutions with core business needs</p>
               </div>
             </div>
             <div className="highlight-item">
-              <div className="highlight-icon">📈</div>
+              <div className="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="22 6 13.5 14.5 8.5 9.5 2 16"></polyline>
+                  <polyline points="16 6 22 6 22 12"></polyline>
+                </svg>
+              </div>
               <div className="highlight-content">
                 <h3>Proven Results</h3>
                 <p>10+ years of delivering measurable business outcomes</p>
               </div>
             </div>
             <div className="highlight-item">
-              <div className="highlight-icon">🤝</div>
+              <div className="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
               <div className="highlight-content">
                 <h3>Customer Success</h3>
                 <p>Regular QBRs and continuous relationship management</p>
               </div>
             </div>
             <div className="highlight-item">
-              <div className="highlight-icon">🚀</div>
+              <div className="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+              </div>
               <div className="highlight-content">
                 <h3>Innovation</h3>
                 <p>Positioning new technology to drive competitive advantage</p>
