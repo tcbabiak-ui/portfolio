@@ -4,14 +4,14 @@ const Projects = () => {
   const projects = [
     {
       title: "Has My Password Been Hacked",
-      description: "A web app that checks if passwords have been exposed in data breaches. Built with Cursor to help users identify compromised credentials.",
+      description: "A web app that checks if passwords have been exposed in data breaches. Helps users identify compromised credentials.",
       features: [
         "Real-time password breach checking",
         "Secure password validation",
         "User-friendly interface for security awareness",
         "Built with modern web technologies"
       ],
-      tech: "AI-Assisted Development (Cursor), Web Security, API Integration",
+      tech: "Web Security, API Integration",
       image: "/Has My Password Been Hacked.png",
       category: "Security Tool"
     },
@@ -24,7 +24,7 @@ const Projects = () => {
         "Vulnerability timeline estimation",
         "Security risk assessment"
       ],
-      tech: "AI-Assisted Development (Cursor), IP Analysis, Security Metrics",
+      tech: "IP Analysis, Security Metrics",
       image: "/How Long Until I Get Hacked.png",
       category: "Security Assessment"
     }
@@ -64,16 +64,13 @@ const Projects = () => {
               <div className="project-tech">
                 <strong>Technologies:</strong> {project.tech}
               </div>
-              <div className="project-ai-badge">
-                <span>Built with Cursor</span>
-              </div>
             </div>
           </div>
         ))}
       </div>
       <div className="projects-footer">
         <p>
-          Built these to learn Cursor and solve security problems I was curious about. They're functional apps that 
+          Built these to solve security problems I was curious about. They're functional apps that 
           address real concerns people have about their online security.
         </p>
       </div>

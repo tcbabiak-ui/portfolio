@@ -11,9 +11,6 @@ const Hero = () => {
     <section id="hero" className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <div className="hero-badge">
-            <span>Technical Account Manager</span>
-          </div>
           <h1 className="hero-title">
             Todd Babiak
           </h1>
@@ -23,11 +20,11 @@ const Hero = () => {
             into scalable technical solutions and driving measurable outcomes.
           </p>
           <div className="hero-buttons">
-            <a href="mailto:tcbabiak@gmail.com" className="btn btn-primary">
-              Get In Touch
+            <a href="#projects" className="btn btn-primary">
+              Projects
             </a>
-            <a href="#experience" className="btn btn-secondary">
-              View Experience
+            <a href="#experience" className="btn btn-primary">
+              Experience
             </a>
           </div>
           <div className="hero-contact">
