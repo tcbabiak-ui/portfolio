@@ -27,6 +27,19 @@ const Projects = () => {
       tech: "IP Analysis, Security Metrics",
       image: "/How Long Until I Get Hacked.png",
       category: "Security Assessment"
+    },
+    {
+      title: "Line Practice Tool",
+      description: "A tool that uses Gemini AI to convert scripts into a format compatible with ElevenLabs, helping actors practice their lines with AI-generated voice prompts.",
+      features: [
+        "Script conversion using Gemini AI",
+        "ElevenLabs integration for voice synthesis",
+        "Actor-friendly line practice interface",
+        "Automated script formatting"
+      ],
+      tech: "Gemini AI, ElevenLabs API, Voice Synthesis",
+      image: "/Line Practice Tool.png",
+      category: "Actor Tool"
     }
   ]
 
@@ -35,7 +48,7 @@ const Projects = () => {
       <div className="section-header">
         <h2 className="section-title">AI-Built Web Applications</h2>
         <p className="section-subtitle">
-          Security tools built with Cursor. These projects show how I use modern development tools to solve real problems.
+          Tools built with Cursor. These projects show how I use modern development tools to solve real problems.
         </p>
       </div>
       <div className="projects-grid">
@@ -70,8 +83,8 @@ const Projects = () => {
       </div>
       <div className="projects-footer">
         <p>
-          Built these to solve security problems I was curious about. They're functional apps that 
-          address real concerns people have about their online security.
+          Built these to solve problems I was curious about. They're functional apps that 
+          address real needs in security and creative workflows.
         </p>
       </div>
     </section>
