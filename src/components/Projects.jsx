@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Has My Password Been Hacked",
-      description: "A security-focused web application that allows users to check if their passwords have been compromised in known data breaches. Built using AI-assisted development with Cursor, this tool helps users identify vulnerable credentials and take proactive security measures.",
+      description: "A web app that checks if passwords have been exposed in data breaches. Built with Cursor to help users identify compromised credentials.",
       features: [
         "Real-time password breach checking",
         "Secure password validation",
@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       title: "How Long Until I Get Hacked",
-      description: "An innovative security assessment tool that analyzes your public IP address to detect VPN status and calculates the estimated time until a potential security compromise. This application demonstrates practical cybersecurity awareness and helps users understand their online vulnerability exposure.",
+      description: "Analyzes your public IP to check VPN status and estimates how long until a potential security issue. Built to help people understand their online exposure.",
       features: [
         "Public IP address analysis",
         "VPN detection and status reporting",
@@ -35,9 +35,7 @@ const Projects = () => {
       <div className="section-header">
         <h2 className="section-title">AI-Built Web Applications</h2>
         <p className="section-subtitle">
-          Demonstrating technical innovation through AI-assisted development. These security-focused web applications 
-          were built using Cursor, showcasing my ability to leverage cutting-edge AI tools to create practical, 
-          user-focused solutions.
+          Security tools built with Cursor. These projects show how I use modern development tools to solve real problems.
         </p>
       </div>
       <div className="projects-grid">
@@ -67,8 +65,7 @@ const Projects = () => {
                 <strong>Technologies:</strong> {project.tech}
               </div>
               <div className="project-ai-badge">
-                <span className="ai-icon">🤖</span>
-                <span>Built with AI-Assisted Development (Cursor)</span>
+                <span>Built with Cursor</span>
               </div>
             </div>
           </div>
@@ -76,9 +73,8 @@ const Projects = () => {
       </div>
       <div className="projects-footer">
         <p>
-          These projects demonstrate my ability to rapidly prototype and deploy functional web applications 
-          using AI-assisted development tools, combining technical expertise with modern development practices 
-          to create solutions that address real-world security concerns.
+          Built these to learn Cursor and solve security problems I was curious about. They're functional apps that 
+          address real concerns people have about their online security.
         </p>
       </div>
     </section>

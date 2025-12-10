@@ -5,20 +5,18 @@ const About = () => {
     <section id="about" className="about">
       <div className="section-header">
         <h2 className="section-title">About Me</h2>
-        <p className="section-subtitle">Driving technology solutions that deliver measurable business value</p>
+        <p className="section-subtitle">Building technology solutions that work</p>
       </div>
       <div className="about-content">
         <div className="about-text">
           <p className="about-paragraph">
-            Technical Account Manager with 10+ years of experience guiding enterprise and mid-market customers through 
-            cloud, security, and AI-driven technology adoption. Known for translating business requirements into scalable 
-            technical solutions, driving successful implementations, and strengthening long-term customer relationships.
+            I've been a Technical Account Manager for over 10 years, working with enterprise and mid-market customers 
+            on cloud, security, and AI projects. I help translate what businesses need into technical solutions that actually work.
           </p>
           <p className="about-paragraph">
-            Adept at leading architecture discussions, delivering strategic recommendations, and aligning cross-functional 
-            engineering resources to ensure measurable outcomes. I excel at conducting comprehensive Quarterly Business 
-            Reviews (QBRs), scoping cloud transformation projects, and identifying expansion opportunities that drive both 
-            customer success and business growth.
+            I run architecture discussions, make strategic recommendations, and coordinate with engineering teams to get 
+            things done. Most of my time is spent on QBRs, scoping cloud projects, and finding opportunities to expand 
+            accounts while keeping customers happy.
           </p>
           <div className="education-note">
             <strong>Education:</strong> Recording Arts Associate Degree, Full Sail University (Class of 2010)

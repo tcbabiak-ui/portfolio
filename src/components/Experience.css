@@ -97,10 +97,10 @@
 }
 
 .experience-achievements li::before {
-  content: '✓';
+  content: '•';
   position: absolute;
   left: 0;
-  color: var(--accent-color);
+  color: var(--primary-color);
   font-weight: bold;
   font-size: 1.2rem;
 }

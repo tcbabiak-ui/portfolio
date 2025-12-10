@@ -59,19 +59,16 @@ const Hero = () => {
             </div>
           ) : (
             <div className="profile-image-placeholder">
-              <p>📷 Add your headshot image<br />to: <code>public/profile.jpg</code></p>
+              <p>Add your headshot image<br />to: <code>public/profile.jpg</code></p>
             </div>
           )}
           <div className="floating-card card-1">
-            <div className="card-icon">☁️</div>
             <div className="card-text">Cloud Solutions</div>
           </div>
           <div className="floating-card card-2">
-            <div className="card-icon">🤖</div>
             <div className="card-text">AI-Driven Tech</div>
           </div>
           <div className="floating-card card-3">
-            <div className="card-icon">📊</div>
             <div className="card-text">QBR Excellence</div>
           </div>
           <div className="hero-gradient"></div>
